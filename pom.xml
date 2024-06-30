@@ -70,14 +70,7 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.4.1-SNAPSHOT</version>
-            <configuration>
-              <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
-            </configuration>
-          </plugin>
+        
       </plugins>
     </pluginManagement>
   </build>
